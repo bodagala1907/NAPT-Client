@@ -1,0 +1,52 @@
+[
+  {
+    "title": "Execution Engine",
+    "path": "/Execution",
+    "root": "execution",
+    "exact": true,
+    "class" : "fa fa-cogs"
+  },
+  {
+    "title": "Recent Summary Report",
+    "path": "/kibana_summary",
+    "root": "kibana_summary",
+    "exact": true,
+    "class" : "fa fa-pie-chart"
+  },
+  {
+    "title": "Project Summary Report",
+    "path": "/kibana_project_summary",
+    "root": "kibana_project_summary",
+    "exact": true,
+    "class" : "fa fa-bar-chart-o"
+  },
+  {
+    "title": "Execution Detail Report",
+    "path": "/kibana_detail",
+    "root": "kibana_detail",
+    "exact": true,
+    "class" : "fa fa-line-chart"
+  },
+  {
+    "title": "Execution Failure Report",
+    "path": "/fail_report",
+    "root": "fail_report",
+    "exact": true,
+    "class" : "fa fa-bug"
+  },
+  {
+    "title": "Logs",
+    "path": "/Logs_detail",
+    "root": "Logs_detail",
+    "exact": true,
+    "class" : "fa fa-book"
+  },
+  {
+    "title": "VM Management",
+    "path": "/vm_management",
+    "root": "vm_management",
+    "exact": true,
+    "class" : "fa fa-cube"
+  }
+  
+]

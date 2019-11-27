@@ -1,0 +1,21 @@
+.footer {
+    height: 50px;
+    background-color: rgb(143, 145, 146);
+    color: #202124;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    line-height: 50px;
+    margin-left: 1px;
+}
+.footer-text {
+    display: inline-block;
+    margin-left: 10px;
+}
+.footer-logo {
+    height: 35px;
+    width: auto;
+    margin: 10px 20px 0 0;
+    position: fixed;
+    right: 0;
+}

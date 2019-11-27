@@ -1,0 +1,67 @@
+@import '../../node_modules/bootstrap/dist/css/bootstrap.min.css';
+
+ .Project-info{
+   margin-top: 10px;
+    /* text-align: center;
+    position: relative;
+    float:left;  */
+    margin-left:10px;
+} 
+.label{
+    font-weight:bold;
+    margin-top:10px;
+}
+.projectClass{
+    margin-top:20px;
+    font-weight:bold;
+}
+.submit-button {
+    width: 125px;
+    margin-top: 10px;
+    background-color: #11b7e6;
+    color: #fff;
+}
+.pb-height>.progress {
+    height: 30px;
+}
+.dropdown-toggle:after {
+    margin-top: 10px;
+}
+.multi-select-list {
+    overflow-y: scroll;
+    overflow-x: hidden;
+    max-height: 130px;
+    margin: 0;
+    padding: 0;
+}
+.dropdown-item:hover {
+    background-color: #3593f9;
+}
+.check-box {
+    opacity: 0;
+}
+.form-control-custom {
+    width: 100%;
+    min-height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    -webkit-transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.item-chip {
+    background-color: #eaecef;
+    border-radius: 15px;
+    padding: 1px 7px;
+}
+.top-heading { 
+    margin: 0 20px;
+    line-height: 48px;
+    border-bottom: 1px solid #ced4da;
+}

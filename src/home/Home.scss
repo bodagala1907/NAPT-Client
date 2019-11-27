@@ -1,0 +1,45 @@
+.sidenav{
+  width: 4%;
+  transition: all 1s ease-in-out 0s;
+  a {
+      span {
+        opacity: 0;
+        transition: all 1s ease-in-out 0s;
+      }
+  }
+  &:hover {
+    width: 18%;
+    transition: all 1s ease-in-out 0s;
+    a {
+      span {
+        opacity: 1;
+        transition: all 1s ease-in-out 0s;
+      }
+  }
+  }
+}
+.full-width-container {
+  width: 96%;
+}
+.top-header {
+  background-color: #11b7e6;
+  height: 67px;
+}
+.h-line-height {
+  line-height: 67px;
+}
+.h-color {
+  color: #fff;
+}
+.bold {
+  font-weight: bold;
+}
+.main-content {
+  height: 84vh;
+  overflow-y: scroll;
+}
+.logout {
+  color: #fff;
+  cursor: pointer;
+  margin: 0 15px;
+}

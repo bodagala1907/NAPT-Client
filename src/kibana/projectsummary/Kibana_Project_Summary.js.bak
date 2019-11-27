@@ -1,0 +1,17 @@
+import React, { Component } from 'react'
+
+export default class Kibana_Project_Summary extends Component {
+    constructor(props) {
+        super(props)
+    
+        this.state = {
+            frameUrl : "http://192.168.52.27:5601/app/kibana#/dashboard/600a0180-ba96-11e9-824a-19a11c362878?embed=true&_g=()"
+        }
+    }
+    
+    render() {
+        return (
+            <iframe src={this.state.frameUrl} height="750" width="1370" title="Kibana-summary"></iframe>            
+        )
+    }
+}

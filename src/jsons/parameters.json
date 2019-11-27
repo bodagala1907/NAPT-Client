@@ -1,0 +1,15 @@
+{
+    "testEnv" : ["TAILORED_BRANDS QE1", "TAILORED_BRANDS QE2"],
+    "testSuiteType" : ["@sanity", "@regression","@smoke","@s3"],
+    "browser" : ["Chrome", "Firefox","NA"],
+    "os" : {
+        "API" : ["NA"],
+        "MOBILE" : ["Android", "IOS"],
+        "UI" : ["Linux", "Mac", "Windows"]
+    },
+    "testCaseType" : ["API","UI","MOBILE"],
+    "threadCount" : [1, 2],
+    "release" : ["1.0.0", "1.1.0"]
+}
+
+    

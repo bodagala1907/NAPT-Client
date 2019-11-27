@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.cb60cb6d.chunk.css",
+    "main.js": "/static/js/main.adeaf518.chunk.js",
+    "main.js.map": "/static/js/main.adeaf518.chunk.js.map",
+    "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
+    "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
+    "static/css/2.f5436050.chunk.css": "/static/css/2.f5436050.chunk.css",
+    "static/js/2.852555b3.chunk.js": "/static/js/2.852555b3.chunk.js",
+    "static/js/2.852555b3.chunk.js.map": "/static/js/2.852555b3.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.dc7160f200101a71b16d97235d0dc172.js": "/precache-manifest.dc7160f200101a71b16d97235d0dc172.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.f5436050.chunk.css.map": "/static/css/2.f5436050.chunk.css.map",
+    "static/css/main.cb60cb6d.chunk.css.map": "/static/css/main.cb60cb6d.chunk.css.map",
+    "static/media/Automation1.jpg": "/static/media/Automation1.bf81d061.jpg",
+    "static/media/Devops.png": "/static/media/Devops.0595aa22.png",
+    "static/media/chartsReport.jpg": "/static/media/chartsReport.e5654892.jpg",
+    "static/media/font-awesome.min.css": "/static/media/fontawesome-webfont.fee66e71.woff",
+    "static/media/nisumlogo.png": "/static/media/nisumlogo.347207e4.png",
+    "static/media/tb-logo.svg": "/static/media/tb-logo.b8e57f1a.svg"
+  }
+}

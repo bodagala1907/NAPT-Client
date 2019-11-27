@@ -1,0 +1,79 @@
+{
+  "name": "my-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@babel/runtime": "7.0.0-beta.55",
+    "axios": "^0.19.0",
+    "body-parser": "^1.19.0",
+    "bootstrap": "^4.3.1",
+    "cors": "^2.8.5",
+    "ejs": "^2.6.2",
+    "express": "^4.17.1",
+    "find-in-files": "^0.5.0",
+    "font-awesome": "^4.7.0",
+    "fs": "0.0.1-security",
+    "http": "0.0.0",
+    "jenkins": "^0.25.0",
+    "jenkins-api": "^0.3.1",
+    "jquery": "^3.4.1",
+    "path": "^0.12.7",
+    "react": "^16.8.6",
+    "react-bootstrap": "^1.0.0-beta.3",
+    "react-bootstrap-multiselect": "^2.4.1",
+    "react-dom": "^16.8.6",
+    "react-google-login": "^5.0.4",
+    "react-redux": "^7.1.0",
+    "react-router-dom": "^5.0.1",
+    "react-scripts": "3.0.1",
+    "redux": "^4.0.4",
+    "redux-thunk": "^2.3.0",
+    "xml2js": "^0.4.19"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "build-preprod": "REACT_APP_PROD=preprod react-scripts build",
+    "build-prod": "REACT_APP_PROD=prod react-scripts build",
+    "test": "react-scripts test --watchAll --coverage",
+    "test:ci": "CI=true react-scripts test --coverage",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "enzyme": "^3.10.0",
+    "enzyme-adapter-react-16": "^1.14.0",
+    "enzyme-to-json": "^3.4.0",
+    "moxios": "^0.4.0",
+    "node-sass": "^4.12.0",
+    "redux-mock-store": "^1.5.3"
+  },
+  "jest": {
+    "collectCoverageFrom": [
+      "src/**/*.{js,jsx}",
+      "!src/index.js",
+      "!src/serviceWorker.js",
+      "!src/common/jenkins-utils/Utils.js"
+    ],
+    "snapshotSerializers": [
+      "enzyme-to-json/serializer"
+    ]
+  },
+  "setupFiles": [
+    "./src/setupTests.js"
+  ]
+}

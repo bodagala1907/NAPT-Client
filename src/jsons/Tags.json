@@ -1,0 +1,53 @@
+{
+    "API": {
+      "API_BOPIS_Test": {
+        "Tags": [
+            "Sanity",
+            "Regression",
+            "Smoke",
+            "Checkout",
+            "Login",
+            "Placeorder"
+        ]
+      },
+      "API_BOSTS_Test": {
+        "Tags": [
+            "Sanity",
+            "Regression",
+            "Checkout",
+            "Login",
+            "Placeorder"
+        ]
+      },
+      "API_OMS_Test": {
+        "Tags": [
+            "Regression",
+            "Smoke",
+            "Checkout",
+            "Login",
+            "Placeorder"
+        ]
+      }
+      
+    },
+    "UI": {
+      "UIAutomation": {
+        "Tags": [
+          "Sanity",
+          "Regression",
+          "Smoke",
+          "Checkout",
+          "Login",
+          "Placeorder"
+        ]
+      },
+      "UIBOPIS": {
+        "Tags": [
+          "Sanity",
+          "Regression",
+          "Login",
+          "Placeorder"
+        ]
+      }
+    }
+   }

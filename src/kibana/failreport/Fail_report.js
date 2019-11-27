@@ -1,0 +1,17 @@
+import React, { Component } from 'react'
+
+export default class Fail_report extends Component {
+    constructor(props) {
+        super(props)
+    
+        this.state = {
+            frameUrl : "http://localhost:5601/app/kibana#/dashboard/fb367930-ba97-11e9-824a-19a11c362878?embed=true&_g=()"
+        }
+    }
+    
+    render() {
+        return (
+            <iframe src={this.state.frameUrl} height="750" width="1370" title="Fail_report"></iframe>            
+        )
+    }
+}
